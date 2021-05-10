@@ -1,6 +1,6 @@
 package AbstractInterface;
 
-class FruitDiscount implements Discount{ //implementing an interface
+class AppleDiscount implements Discount{ //implementing an interface
 	public float disRate() { //Method implementation
 		return 0.30f; 
 	}
