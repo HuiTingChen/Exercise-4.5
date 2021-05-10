@@ -31,7 +31,7 @@ public class Apple extends Fruit{
 		
 			else {
 			double pp = p-0.10; //purchase more than 100 , price will deduct 0.10
-			Discount a = new FruitDiscount(); // create a new object 
+			Discount a = new AppleDiscount(); // create a new object 
 			double dis = a.disRate(); //daily discount rate
 			total(dis, pp); //overloading with 2 arguments
 			System.out.println("Fruit Name: " + name);
